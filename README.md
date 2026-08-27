@@ -1,22 +1,12 @@
 # Nix configuration
 
----
-
 ## About
 
 My nix configuration with my main prod tools. That's it.
 
----
-
 ## packages
 
----
-
-### Development
-
----
-
-#### Tools
+### Development tools
 
 > - **Vim**: Terminal text editor.
 > - **Neovim**: Vim-based text editor.
@@ -26,17 +16,13 @@ My nix configuration with my main prod tools. That's it.
 > - **jq**: Command-line JSON processor.
 > - **gh**: Official GitHub CLI tool.
 
----
-
 ### Languages/Runtimes
 
 > - **nodejs**: JavaScript runtime environment.
 > - **go**: Google's programming language.
 > - **rustup**: Rust toolchain and version manager.
 
----
-
-#### Dependencies
+### Dependencies
 
 > - **yarn**: Node.js package manager.
 > - **docker-compose**: Multi-container Docker application orchestrator.
@@ -46,8 +32,6 @@ My nix configuration with my main prod tools. That's it.
 > - **glow**: Terminal-based Markdown renderer.
 > - **wakeonlan**: Script to power on remote computers.
 > - **wl-clipboard**: Copy and paste utility for Wayland.
-
----
 
 ### System Analysis
 
@@ -59,21 +43,15 @@ My nix configuration with my main prod tools. That's it.
 > - **smartmontools**: S.M.A.R.T. storage monitoring utility.
 > - **gparted**: Graphical partition editor.
 
----
-
 ### Stylish
 
 > - **blesh**: Autocomplete and syntax highlighting for Bash.
 > - **cava**: Console-based audio visualizer.
 > - **fastfetch**: System and hardware information display tool.
 
----
-
 ## KDE configs
 
 To do.
-
----
 
 ## System settings
 
