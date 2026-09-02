@@ -6,9 +6,7 @@ My nix configuration with my main prod tools. That's it.
 
 ## packages
 
-### Development
-
-#### Tools
+### Development tools
 
 > - **Vim**: Terminal text editor.
 > - **Neovim**: Vim-based text editor.
@@ -24,7 +22,7 @@ My nix configuration with my main prod tools. That's it.
 > - **go**: Google's programming language.
 > - **rustup**: Rust toolchain and version manager.
 
-#### Dependencies
+### Dependencies
 
 > - **yarn**: Node.js package manager.
 > - **docker-compose**: Multi-container Docker application orchestrator.

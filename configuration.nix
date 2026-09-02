@@ -107,7 +107,7 @@
     packages = with pkgs; [
       neovim
 
-      gh go nodejs yarn docker-compose bruno opencode quickemu
+      gh go nodejs yarn bruno opencode quickemu
       tree-sitter-cli rustup rustlings blesh
 
       jq tree wl-clipboard fastfetch btop ncdu dua-cli duf glow cava
@@ -116,15 +116,15 @@
       heroic prismlauncher wineWowPackages.staging discord
       vlc spotify qbittorrent obs-studio
       krita inkscape drawio upscayl
-      calibre foliate zotero libreoffice-still
-      yakuake kdeconnect ark gwenview kcalc kolourpaint
+      calibre foliate libreoffice-qt
+      kdePackages.kdeconnect-kde kdePackages.ark kdePackages.gwenview kdePackages.kcalc kdePackages.kolourpaint
       zapzap obsidian
     ];
   };
 
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
-
+  
   # Essenciais do sistema.
   environment.systemPackages = with pkgs; [
     git vim wget zip unzip rsync bat ripgrep fd
